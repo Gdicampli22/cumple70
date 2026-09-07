@@ -1,0 +1,155 @@
+{
+  "settings": {
+    "event_name": "70° Cumpleaños de Hilda",
+    "event_date": "2026-10-17",
+    "total_budget": 1500000,
+    "currency": "$",
+    "alert_days_threshold": 3,
+    "budget_alert_threshold": 85,
+    "emotional_message": "Faltan {days} días para celebrar los 70 años de Hilda"
+  },
+  "categories": [
+    "Torta y Dulces",
+    "Comida y Catering",
+    "Bebidas y Barra",
+    "Decoración y Ambientación",
+    "Música y Sonido",
+    "Fotografía y Video",
+    "Salón y Espacio",
+    "Invitaciones y Souvenirs",
+    "Regalos Especiales",
+    "Logística y Organización"
+  ],
+  "people": [
+    {
+      "id": 1,
+      "name": "Juan Pérez",
+      "email": "juan@mail.com",
+      "phone": "1144556677",
+      "rol": "Logística y Bebidas"
+    },
+    {
+      "id": 2,
+      "name": "María Gómez",
+      "email": "maria@mail.com",
+      "phone": "1133221100",
+      "rol": "Catering y Torta"
+    },
+    {
+      "id": 3,
+      "name": "Pedro López",
+      "email": "pedro@mail.com",
+      "phone": "1199887766",
+      "rol": "Finanzas y Contratos"
+    },
+    {
+      "id": 4,
+      "name": "Sofía Martínez",
+      "email": "sofia@mail.com",
+      "phone": "1177665544",
+      "rol": "Decoración"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "name": "Reservar salón principal",
+      "tipo": "Trámite / Reserva",
+      "categoria": "Salón y Espacio",
+      "responsable": "Juan Pérez",
+      "prioridad": "🔴 Crítica",
+      "limite": "2026-09-10",
+      "estado": "Completada",
+      "avance": 100
+    },
+    {
+      "id": 2,
+      "name": "Comprar vinos y espumantes",
+      "tipo": "Compra / Insumo",
+      "categoria": "Bebidas y Barra",
+      "responsable": "Juan Pérez",
+      "prioridad": "🔴 Crítica",
+      "limite": "2026-09-12",
+      "estado": "Pendiente",
+      "avance": 0
+    },
+    {
+      "id": 3,
+      "name": "Encargar torta temática de 70 años",
+      "tipo": "Contratación / Proveedor",
+      "categoria": "Torta y Dulces",
+      "responsable": "María Gómez",
+      "prioridad": "🟠 Alta",
+      "limite": "2026-09-18",
+      "estado": "En progreso",
+      "avance": 40
+    },
+    {
+      "id": 4,
+      "name": "Contratar fotógrafo para la fiesta",
+      "tipo": "Contratación / Proveedor",
+      "categoria": "Fotografía y Video",
+      "responsable": "Pedro López",
+      "prioridad": "🟡 Media",
+      "limite": "2026-09-25",
+      "estado": "Pendiente",
+      "avance": 0
+    },
+    {
+      "id": 5,
+      "name": "Armar lista preliminar de invitados",
+      "tipo": "Coordinación",
+      "categoria": "Invitaciones y Souvenirs",
+      "responsable": "Sofía Martínez",
+      "prioridad": "🟠 Alta",
+      "limite": "2026-09-14",
+      "estado": "En progreso",
+      "avance": 70
+    }
+  ],
+  "purchases": [
+    {
+      "id": 1,
+      "producto": "Cajas de Vino Malbec x6",
+      "categoria": "Bebidas y Barra",
+      "cantidad": 5,
+      "unidad": "Cajas",
+      "responsable": "Juan Pérez",
+      "limite": "2026-09-12",
+      "estimado": 80000,
+      "real": 76000,
+      "estado": "Comprado",
+      "lugar": "Vinoteca Central"
+    },
+    {
+      "id": 2,
+      "producto": "Torta artesanal 3 pisos",
+      "categoria": "Torta y Dulces",
+      "cantidad": 1,
+      "unidad": "Unidad",
+      "responsable": "María Gómez",
+      "limite": "2026-10-15",
+      "estimado": 95000,
+      "real": 0,
+      "estado": "Reservado",
+      "lugar": "Pastelería Dulce Arte"
+    },
+    {
+      "id": 3,
+      "producto": "Guirnaldas LED y globos dorados",
+      "categoria": "Decoración y Ambientación",
+      "cantidad": 12,
+      "unidad": "Packs",
+      "responsable": "Sofía Martínez",
+      "limite": "2026-09-30",
+      "estimado": 45000,
+      "real": 42000,
+      "estado": "Comprado",
+      "lugar": "Cotillón Express"
+    }
+  ],
+  "activity_log": [
+    "Juan completó 'Reservar salón principal'.",
+    "Pedro registró la compra de 'Vinos Malbec'."
+  ]
+}
